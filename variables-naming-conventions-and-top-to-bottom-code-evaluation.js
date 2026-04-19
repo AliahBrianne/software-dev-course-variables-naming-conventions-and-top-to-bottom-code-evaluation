@@ -30,3 +30,13 @@ let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
 console.log(d);
+
+
+let customerName = "Alice"
+let numberOfItems = 5;
+let totalCost=20;
+
+let currency = "$";
+let sentence = customerName + "bought"+
+numberOfItems + "items for" + currency + totalCost+
+".";
